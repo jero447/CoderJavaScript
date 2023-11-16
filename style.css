@@ -1,0 +1,185 @@
+body{
+    background-image: url("./imagenes/imagenesFondo/a9e02257-7449-412d-ba10-b60bf522e977.jpg");
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+h1,h2,h3{
+    font-weight: normal;
+    letter-spacing: 0.1em;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+
+
+.main{
+    width: 730px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seccion1{
+    border: 2px solid #00BFFF;
+    background-color: #808080;
+    padding: 0px 10px 10px 10px;
+    border-radius: 8px;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.seccion2{
+    border: 3px solid #00BFFF;
+    background-color: #808080;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 20px;
+    margin-right: 125px;
+}
+.estadisticas{
+    border: 1px solid white;
+    height: 105px;
+    border-radius: 8px;
+    padding: 0px 20px;
+    padding-bottom: 15px;
+}
+.seccion3{
+    border: 3px solid #00BFFF;
+    order: -1;
+    background-color: #808080;
+    height: 450px;
+    padding: 0px 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.puntuaciones{
+    border: 1px solid white;
+    height: 365px;
+    padding: 0px 25px 35px 25px;
+    width: 110px;
+    border-radius: 8px;
+}
+.seccion4 form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seccion4 input{
+    margin-top: 10px;
+}
+#oscuro{
+    background-color: #000;
+    color: #FFD700;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    border: 2px solid #FFD700;
+    cursor: pointer;
+    border-radius: 50px;
+}
+#oscuro:hover{
+    background-color: #FFD700;
+    color: #000;
+}
+
+.modo-oscuro{
+    background-image: url("./imagenes/imagenesFondo/descarga.jpg");
+    color: #FF2400
+
+}
+.modo-oscuro-section{
+    background-color: #333333 !important;
+    border: 2px solid #FF2400 !important;
+}
+#botonEnviar{
+    background-color: #000;
+    color: #FFD700;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    border: 2px solid #FFD700;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#botonEnviar:hover{
+    background-color: #FFD700;
+    color: #000;
+}
+img{
+    width: 80%;
+}
+
+.contenedorBotones{
+    display: flex;
+    justify-content:space-between;
+}
+#btnMusica{
+    width: 130px;
+    background-color: #000;
+    color: #FFD700;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    border: 2px solid #FFD700;
+    cursor: pointer;
+}
+#btnMusica:hover {
+    background-color: #FFD700;
+    color: #000;
+}
+
+#usuario{
+    border-radius: 7px;
+    border: 4px solid black;
+    background-color:#CCCCCC;
+}
+.modo-oscuro-input{
+    background-color: #FF2400;
+    color: #000;
+}
+.label{
+    color: #00BFFF;
+    font-weight: bold;
+}
+.label-oscuro{
+    color: #FF2400;
+}
+.seccionFetch{
+    border: 3px solid #00BFFF;
+    background-color: #808080;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;;
+    padding: 10px;
+    order: -2;
+    text-align: center;
+}
+
+.datosPersonaje{
+    font-weight: bold;
+    text-align: left;
+    border: 1px solid white;
+    height: 365px;
+    padding: 10px;
+    width: 230px;
+    height: 235px;
+    border-radius: 8px;
+}

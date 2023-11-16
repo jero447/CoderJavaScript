@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <div class="contenedorBotones">
+            <div class="contenedorbtnMusica">
+                <audio id="cancion" src="./sonido/cancionStarWars.wav" loop></audio>
+                <button id="btnMusica">Reproducir Musica</button>
+            </div>
+            <button id="oscuro">Modo oscuro</button>
+        </div>
+        <div class="main">
+            <section class="seccion1">
+                <h1>Star Wars Memory</h1>
+                <table>
+                    <tr>
+                        <td><button id="0" onclick="destapar(0)"></button></td>
+                        <td><button id="1" onclick="destapar(1)"></button></td>
+                        <td><button id="2" onclick="destapar(2)"></button></td>
+                        <td><button id="3" onclick="destapar(3)"></button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="4" onclick="destapar(4)"></button></td>
+                        <td><button id="5" onclick="destapar(5)"></button></td>
+                        <td><button id="6" onclick="destapar(6)"></button></td>
+                        <td><button id="7" onclick="destapar(7)"></button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="8" onclick="destapar(8)"></button></td>
+                        <td><button id="9" onclick="destapar(9)"></button></td>
+                        <td><button id="10" onclick="destapar(10)"></button></td>
+                        <td><button id="11" onclick="destapar(11)"></button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="12" onclick="destapar(12)"></button></td>
+                        <td><button id="13" onclick="destapar(13)"></button></td>
+                        <td><button id="14" onclick="destapar(14)"></button></td>
+                        <td><button id="15" onclick="destapar(15)"></button></td>
+                    </tr>
+                </table>
+            </section>
+            <section class="seccion2">
+                <div class="estadisticas">
+                    <h2 id="aciertos">Aciertos: 0</h2>
+                </div>
+                <div class="estadisticas">
+                    <h2 id="tiempo">Tiempo: 30 segundos</h2>
+                </div>
+                <div class="estadisticas">
+                    <h2 id="movimientos">Movimientos: 0</h2>
+                </div>
+            </section>
+            <section class="seccion3">
+                <div>
+                    <h2>Ranking</h2>
+                </div>
+                <div class="puntuaciones">
+                    <h2>Top 1</h2>
+                    <p id="top1">Usuario</p>
+                    <p id="movTop1">Movimientos: 0</p>
+                    <h2>Top 2</h2>
+                    <p id="top2">Usuario2</p>
+                    <p id="movTop2">Movimientos: 0</p>
+                    <h2>Top 3</h2>
+                    <p id="top3">Usuario3</p>
+                    <p id="movTop3">Movimientos: 0</p>
+            </section>
+            <div class="seccionFetch">
+                <h2 class="nombreFetch"></h2>
+                <div class="datosPersonaje">
+                    <p class="alturaFetch"></p>
+                    <p class="pesoFetch"></p>
+                    <p class="colorPeloFetch"></p>
+                    <p class="colorOjosFetch"></p>
+                    <p class="fechaNacFetch"></p>
+                    <p class="generoFetch"></p>
+                </div>
+            </div>
+        </div>
+        <section class="seccion4">
+            <form action="">
+                <label for="usuario" class="label">Ingrese su nombre de usuario</label>
+                <input type="text" id="usuario">
+                <input type="button" value="Enviar" id="botonEnviar">
+            </form>
+            <p id="error"></p>
+        </section>
+
+    </main>
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
